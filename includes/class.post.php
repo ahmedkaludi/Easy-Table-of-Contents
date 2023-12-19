@@ -1297,7 +1297,7 @@ class ezTOC_Post {
 	 */
 	public function getTOC($options = []) {
 
-		$class = array( 'ez-toc-v' . str_replace( '.', '_', ezTOC::VERSION ) );
+		$class = array( 'ez-toc-container ez-toc-v' . str_replace( '.', '_', ezTOC::VERSION ) );
 		$html  = '';
 
 		if ( $this->hasTOCItems() ) {
